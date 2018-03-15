@@ -1,18 +1,20 @@
-package jankin_with_Maven_and.github;
+package mavenProject.TestMaven;
+
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.AssertJUnit;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
+
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-{
+public class AppTest {
+	
 WebDriver driver;
 
 @BeforeMethod
@@ -25,7 +27,6 @@ public void before(){
 }
 
 @Test
-
 public void testgooglrsearch(){
 
 //it will open the goggle page
@@ -52,6 +53,4 @@ System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title ma
    //driver.findElement(By.id("lst-ib").sendkeys("xyz"));
 System.out.println("Test1");
  }
-
 }
-
