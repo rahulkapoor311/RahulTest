@@ -6,7 +6,7 @@
       <class name="mavenProject.TestMaven.AppTest">
       <methods>
         <include name="testgooglrsearch1" />
-        <include name="testgooglrsearch2" />
+        
       </methods>
       </class>
     </classes>
