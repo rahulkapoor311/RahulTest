@@ -3,7 +3,12 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="mavenProject.TestMaven.AppTest"/>
+      <class name="mavenProject.TestMaven.AppTest">
+      <methods>
+        <include name="testgooglrsearch1" />
+        <include name="testgooglrsearch2" />
+      </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
