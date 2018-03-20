@@ -62,7 +62,7 @@ driver.get("http://google.in");
 
 //we expect the title “Google “ should be present
 
-String Expectedtitle = "Google";
+String Expectedtitle = "Yahooo";
 
 //it will fetch the actual title
 
